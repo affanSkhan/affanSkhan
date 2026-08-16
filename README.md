@@ -32,7 +32,6 @@
 
 **Based in:** Pune, India  
 **Education:** B.Tech Computer Engineering · VIIT Pune  
-**CGPA:** 8.3 / 10  
 **Open to:** Software Engineering · AI/ML · Full Stack
 
 </td>
@@ -53,7 +52,7 @@ My current direction is **AI-powered software engineering** — especially syste
 <tr>
 <td width="33%" valign="top">
 
-### 🤖 AI / AGENTS
+### ◆ AI / AGENTS
 
 **[Enterprise Document Intelligence Agent](https://github.com/affanSkhan/Enterprise-Document-Intelligence-Agent)**  
 Document ingestion, RAG and multi-agent workflows.
@@ -70,7 +69,7 @@ Skill-driven role recommendation.
 </td>
 <td width="33%" valign="top">
 
-### 📱 PRODUCTS
+### ◆ PRODUCTS
 
 **[Kirana Voice Bill](https://github.com/affanSkhan/kirana-voice-bill)**  
 Voice-first billing workflow for local commerce.
@@ -87,7 +86,7 @@ Real-time seat locking and booking architecture.
 </td>
 <td width="33%" valign="top">
 
-### ⚙️ ENGINEERING
+### ◆ ENGINEERING
 
 **[MiniC Compiler](https://github.com/affanSkhan/minic_compiler)**  
 Lexer → parser → AST → semantics → IR → VM.
@@ -167,10 +166,10 @@ Production client website.
 
 <table>
 <tr>
-<td>🌐 <a href="https://affan.tech">affan.tech</a></td>
-<td>💼 <a href="https://www.linkedin.com/in/affansakhan/">LinkedIn</a></td>
-<td>🧠 <a href="https://leetcode.com/u/Affan_Khan_07/">LeetCode</a></td>
-<td>✉️ <a href="mailto:khanaffan070@gmail.com">Email</a></td>
+<td>◆ <a href="https://affan.tech">affan.tech</a></td>
+<td>◆ <a href="https://www.linkedin.com/in/affansakhan/">LinkedIn</a></td>
+<td>◆ <a href="https://leetcode.com/u/Affan_Khan_07/">LeetCode</a></td>
+<td>◆ <a href="mailto:khanaffan070@gmail.com">Email</a></td>
 </tr>
 </table>
 
@@ -179,7 +178,5 @@ Production client website.
 <div align="center">
 
 ### `BUILD → MEASURE → LEARN → SHIP`
-
-<sub>This profile is intentionally built like a small product, not a résumé.</sub>
 
 </div>
