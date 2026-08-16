@@ -3,8 +3,8 @@
 # AFFAN KHAN
 ### `Computer Engineer` · `AI / ML` · `Full Stack` · `Flutter`
 
-<a href="https://affan.tech"><img src="https://img.shields.io/badge/PORTFOLIO-affan.tech-111827?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"></a>
-<a href="https://www.linkedin.com/in/affansakhan/"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="https://affan-web.netlify.app"><img src="https://img.shields.io/badge/PORTFOLIO-affan--web.netlify.app-111827?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"></a>
+<a href="https://linkedin.com/in/affanskhan"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 <a href="https://leetcode.com/u/Affan_Khan_07/"><img src="https://img.shields.io/badge/LEETCODE-111827?style=for-the-badge&logo=leetcode&logoColor=%23FFA116" alt="LeetCode"></a>
 
 </div>
@@ -211,8 +211,8 @@ DATA              ██████
 
 <table>
 <tr>
-<td>◆ <a href="https://affan.tech">affan.tech</a></td>
-<td>◆ <a href="https://www.linkedin.com/in/affansakhan/">LinkedIn</a></td>
+<td>◆ <a href="https://affan-web.netlify.app">affan-web.netlify.app</a></td>
+<td>◆ <a href="https://linkedin.com/in/affanskhan">LinkedIn</a></td>
 <td>◆ <a href="https://leetcode.com/u/Affan_Khan_07/">LeetCode</a></td>
 <td>◆ <a href="mailto:khanaffan070@gmail.com">Email</a></td>
 </tr>
