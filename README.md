@@ -139,14 +139,59 @@ Production client website.
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=affanSkhan&show_icons=true&hide_border=true&bg_color=00000000&title_color=111827&text_color=4b5563&icon_color=111827&ring_color=111827&include_all_commits=true" height="180" alt="GitHub stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=affanSkhan&layout=compact&hide_border=true&bg_color=00000000&title_color=111827&text_color=4b5563" height="180" alt="Top languages" />
+<table>
+<tr>
+<td align="center" width="25%">
+<strong>375</strong><br>
+<sub>CONTRIBUTIONS</sub>
+</td>
+<td align="center" width="25%">
+<strong>30+</strong><br>
+<sub>REPOSITORIES</sub>
+</td>
+<td align="center" width="25%">
+<strong>4</strong><br>
+<sub>ENGINEERING DOMAINS</sub>
+</td>
+<td align="center" width="25%">
+<strong>ACTIVE</strong><br>
+<sub>BUILD MODE</sub>
+</td>
+</tr>
+</table>
 
-</div>
+<br>
 
-<div align="center">
+<table>
+<tr>
+<td width="52%" valign="top">
 
-<img src="https://streak-stats.demolab.com?user=affanSkhan&hide_border=true&background=00000000&ring=111827&fire=111827&currStreakLabel=111827" alt="GitHub streak" />
+**ACTIVITY SIGNAL**
+
+```text
+RECENT CONTRIBUTION DENSITY
+
+▁ ▂ ▂ ▃ ▅ ▃ ▂ ▄ ▆ ▅ ▃ ▂ ▄ ▆ ▇ ▅
+▂ ▃ ▅ ▆ ▄ ▃ ▅ ▇ ▆ ▄ ▂ ▅ ▆ ▇ ▅ ▃
+▁ ▂ ▄ ▅ ▃ ▂ ▄ ▆ ▇ ▅ ▃ ▂ ▄ ▅ ▆ ▃
+```
+
+</td>
+<td width="48%" valign="top">
+
+**ENGINEERING SIGNAL**
+
+```text
+AI / AGENTS       ████████████
+FULL STACK        ██████████
+MOBILE            ████████
+SYSTEMS           ███████
+DATA              ██████
+```
+
+</td>
+</tr>
+</table>
 
 </div>
 
