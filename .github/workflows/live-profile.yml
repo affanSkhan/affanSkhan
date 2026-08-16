@@ -1,0 +1,65 @@
+name: Live Profile Telemetry
+
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'profile-data.json'
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate live status SVG
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PY'
+          import json, os, urllib.request
+          from datetime import datetime, timezone
+
+          user = 'affanSkhan'
+          req = urllib.request.Request(
+              f'https://api.github.com/users/{user}',
+              headers={'Authorization': f"Bearer {os.environ['GH_TOKEN']}", 'Accept': 'application/vnd.github+json', 'User-Agent': 'affan-profile'}
+          )
+          with urllib.request.urlopen(req) as r:
+              data = json.load(r)
+
+          updated = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
+          repos = data.get('public_repos', 0)
+          followers = data.get('followers', 0)
+
+          svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
+          <rect width="900" height="300" rx="22" fill="#0b1020"/>
+          <rect x="1" y="1" width="898" height="298" rx="21" fill="none" stroke="#27324a"/>
+          <circle cx="38" cy="34" r="7" fill="#22c55e"/>
+          <text x="58" y="41" fill="#94a3b8" font-family="monospace" font-size="16">AFFAN.DEV // PERSONAL CONTROL ROOM</text>
+          <text x="38" y="92" fill="#f8fafc" font-family="monospace" font-size="22">● SYSTEM ONLINE</text>
+          <text x="38" y="135" fill="#64748b" font-family="monospace" font-size="15">CURRENT VECTOR</text>
+          <text x="38" y="163" fill="#e2e8f0" font-family="monospace" font-size="18">Agentic AI · RAG · intelligent automation</text>
+          <text x="38" y="210" fill="#64748b" font-family="monospace" font-size="15">GITHUB TELEMETRY</text>
+          <text x="38" y="238" fill="#e2e8f0" font-family="monospace" font-size="18">{repos} public repos · {followers} followers</text>
+          <text x="38" y="275" fill="#64748b" font-family="monospace" font-size="13">REFRESHED {updated}</text>
+          </svg>'''
+
+          os.makedirs('assets', exist_ok=True)
+          with open('assets/status.svg', 'w', encoding='utf-8') as f:
+              f.write(svg)
+          PY
+
+      - name: Commit refreshed telemetry
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/status.svg
+          git diff --cached --quiet || git commit -m 'chore: refresh live profile telemetry'
+          git push
