@@ -17,17 +17,9 @@
 
 ## ◉ SYSTEM STATUS
 
-```text
-┌─────────────────────────────────────────┐
-│  AFFAN.DEV // PERSONAL CONTROL ROOM     │
-├─────────────────────────────────────────┤
-│  ● STATUS      BUILDING                 │
-│  ◇ FOCUS       AGENTIC AI + RAG         │
-│  ◇ SHIP        PYTHON / TYPESCRIPT      │
-│  ◇ CREATE      PRODUCTS + AUTOMATION    │
-│  ◇ MODE        DEEP WORK                │
-└─────────────────────────────────────────┘
-```
+<div align="center">
+<img src="./assets/status.svg" width="100%" alt="Live Affan developer control room status" />
+</div>
 
 </td>
 <td width="48%" valign="top">
