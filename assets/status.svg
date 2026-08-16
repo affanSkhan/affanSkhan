@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
+<rect width="900" height="300" rx="22" fill="#0b1020"/>
+<rect x="1" y="1" width="898" height="298" rx="21" fill="none" stroke="#27324a"/>
+<circle cx="38" cy="34" r="7" fill="#22c55e"/>
+<text x="58" y="41" fill="#94a3b8" font-family="monospace" font-size="16">AFFAN.DEV // PERSONAL CONTROL ROOM</text>
+<text x="38" y="92" fill="#f8fafc" font-family="monospace" font-size="22">● SYSTEM ONLINE</text>
+<text x="38" y="135" fill="#64748b" font-family="monospace" font-size="15">CURRENT VECTOR</text>
+<text x="38" y="163" fill="#e2e8f0" font-family="monospace" font-size="18">Agentic AI · RAG · intelligent automation</text>
+<text x="38" y="210" fill="#64748b" font-family="monospace" font-size="15">SHIPPING</text>
+<text x="38" y="238" fill="#e2e8f0" font-family="monospace" font-size="18">Python · TypeScript · Flutter · Full Stack</text>
+<text x="38" y="275" fill="#64748b" font-family="monospace" font-size="13">AUTO-REFRESHED VIA GITHUB ACTIONS</text>
+</svg>
