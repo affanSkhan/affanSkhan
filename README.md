@@ -4,7 +4,7 @@
 ### `Computer Engineer` · `AI / ML` · `Full Stack` · `Flutter`
 
 <a href="https://affan-web.netlify.app"><img src="https://img.shields.io/badge/PORTFOLIO-affan--web.netlify.app-111827?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"></a>
-<a href="https://linkedin.com/in/affanskhan"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="https://linkedin.com/in/affanskhan"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn"></a>
 <a href="https://leetcode.com/u/Affan_Khan_07/"><img src="https://img.shields.io/badge/LEETCODE-111827?style=for-the-badge&logo=leetcode&logoColor=%23FFA116" alt="LeetCode"></a>
 
 </div>
@@ -43,6 +43,16 @@
 I’m a Computer Engineering student who likes building beyond tutorials: compilers, AI agents, voice-driven billing, mobile apps, analytics pipelines and production-style web systems.
 
 My current direction is **AI-powered software engineering** — especially systems that combine LLMs with retrieval, tools, APIs and real business workflows.
+
+---
+
+## ◈ ACHIEVEMENT SIGNAL
+
+**Top 100 — UnvibeCode Engineering Challenge 2026** · **Alphashots.ai**  
+Ranked among the Top 100 participants in the engineering challenge after testing UnvibeCode on an open-source project and contributing an engineering improvement suggestion.
+
+**Credential ID:** `UVC26-TOP100-065`  
+**Verification:** [Official GitHub Credential](https://github.com/FinanceFlash/unvibecode/blob/main/docs/OSS_Contributor_Credentials/UVC26-TOP100-065.md)
 
 ---
 
